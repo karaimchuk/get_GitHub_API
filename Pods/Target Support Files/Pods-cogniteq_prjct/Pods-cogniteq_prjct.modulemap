@@ -1,0 +1,6 @@
+framework module Pods_cogniteq_prjct {
+  umbrella header "Pods-cogniteq_prjct-umbrella.h"
+
+  export *
+  module * { export * }
+}
