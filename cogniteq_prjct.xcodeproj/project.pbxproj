@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4F0EFCB46ACBCA6C257AE7 /* Pods_cogniteq_prjct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7E51EC4071D22782954F1D /* Pods_cogniteq_prjct.framework */; };
 		3B6A7428253A4F02005EC98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A7427253A4F02005EC98C /* AppDelegate.swift */; };
 		3B6A742A253A4F02005EC98C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A7429253A4F02005EC98C /* SceneDelegate.swift */; };
-		3B6A742C253A4F02005EC98C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A742B253A4F02005EC98C /* ViewController.swift */; };
+		3B6A742C253A4F02005EC98C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A742B253A4F02005EC98C /* StartViewController.swift */; };
 		3B6A742F253A4F02005EC98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A742D253A4F02005EC98C /* Main.storyboard */; };
 		3B6A7431253A4F03005EC98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A7430253A4F03005EC98C /* Assets.xcassets */; };
 		3B6A7434253A4F03005EC98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A7432253A4F03005EC98C /* LaunchScreen.storyboard */; };
+		3B6A7443253B1FC2005EC98C /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A743F253B1FC2005EC98C /* License.swift */; };
+		3B6A7444253B1FC2005EC98C /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A7440253B1FC2005EC98C /* Json4Swift_Base.swift */; };
+		3B6A7445253B1FC2005EC98C /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A7441253B1FC2005EC98C /* Items.swift */; };
+		3B6A7446253B1FC2005EC98C /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A7442253B1FC2005EC98C /* Owner.swift */; };
+		3B6A744C253B269B005EC98C /* RepoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A744B253B269B005EC98C /* RepoListTableViewController.swift */; };
+		3B6A744E253B2888005EC98C /* RepoInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A744D253B2888005EC98C /* RepoInfoTableViewCell.swift */; };
+		7374BAF4253F435400B61868 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7374BAF3253F435400B61868 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		254C3D555B2A2673BC57ED2B /* Pods-cogniteq_prjct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cogniteq_prjct.debug.xcconfig"; path = "Target Support Files/Pods-cogniteq_prjct/Pods-cogniteq_prjct.debug.xcconfig"; sourceTree = "<group>"; };
 		3B6A7424253A4F02005EC98C /* cogniteq_prjct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cogniteq_prjct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6A7427253A4F02005EC98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6A7429253A4F02005EC98C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B6A742B253A4F02005EC98C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B6A742B253A4F02005EC98C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		3B6A742E253A4F02005EC98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B6A7430253A4F03005EC98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6A7433253A4F03005EC98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B6A7435253A4F03005EC98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6A7435253A4F03005EC98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "cogniteq_prjct/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3B6A743F253B1FC2005EC98C /* License.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = License.swift; sourceTree = "<group>"; };
+		3B6A7440253B1FC2005EC98C /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		3B6A7441253B1FC2005EC98C /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		3B6A7442253B1FC2005EC98C /* Owner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		3B6A744B253B269B005EC98C /* RepoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListTableViewController.swift; sourceTree = "<group>"; };
+		3B6A744D253B2888005EC98C /* RepoInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoInfoTableViewCell.swift; sourceTree = "<group>"; };
+		6427FD3C804F114DB3DF0F55 /* Pods-cogniteq_prjct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cogniteq_prjct.release.xcconfig"; path = "Target Support Files/Pods-cogniteq_prjct/Pods-cogniteq_prjct.release.xcconfig"; sourceTree = "<group>"; };
+		7374BAF3253F435400B61868 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8F7E51EC4071D22782954F1D /* Pods_cogniteq_prjct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cogniteq_prjct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4F0EFCB46ACBCA6C257AE7 /* Pods_cogniteq_prjct.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		333B3202814C4C74AF5A039E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				254C3D555B2A2673BC57ED2B /* Pods-cogniteq_prjct.debug.xcconfig */,
+				6427FD3C804F114DB3DF0F55 /* Pods-cogniteq_prjct.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B4AF6872540A33D00D68F66 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A744D253B2888005EC98C /* RepoInfoTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3B4AF9202540A1140020C251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A7429253A4F02005EC98C /* SceneDelegate.swift */,
+				3B6A7427253A4F02005EC98C /* AppDelegate.swift */,
+				3B6A7435253A4F03005EC98C /* Info.plist */,
+				3B6A7430253A4F03005EC98C /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B4AF9212540A17D0020C251 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AF9222540A2040020C251 /* StartViewController */,
+				3B4AF9232540A2140020C251 /* RepoListTableViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B4AF9222540A2040020C251 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A742B253A4F02005EC98C /* StartViewController.swift */,
+			);
+			path = StartViewController;
+			sourceTree = "<group>";
+		};
+		3B4AF9232540A2140020C251 /* RepoListTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AF6872540A33D00D68F66 /* Cells */,
+				3B6A744B253B269B005EC98C /* RepoListTableViewController.swift */,
+			);
+			path = RepoListTableViewController;
+			sourceTree = "<group>";
+		};
 		3B6A741B253A4F02005EC98C = {
 			isa = PBXGroup;
 			children = (
 				3B6A7426253A4F02005EC98C /* cogniteq_prjct */,
 				3B6A7425253A4F02005EC98C /* Products */,
+				333B3202814C4C74AF5A039E /* Pods */,
+				802DD686E457674F7A6976A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +131,49 @@
 		3B6A7426253A4F02005EC98C /* cogniteq_prjct */ = {
 			isa = PBXGroup;
 			children = (
-				3B6A7427253A4F02005EC98C /* AppDelegate.swift */,
-				3B6A7429253A4F02005EC98C /* SceneDelegate.swift */,
-				3B6A742B253A4F02005EC98C /* ViewController.swift */,
-				3B6A742D253A4F02005EC98C /* Main.storyboard */,
-				3B6A7430253A4F03005EC98C /* Assets.xcassets */,
-				3B6A7432253A4F03005EC98C /* LaunchScreen.storyboard */,
-				3B6A7435253A4F03005EC98C /* Info.plist */,
+				3B4AF9202540A1140020C251 /* Supporting Files */,
+				7374BAF2253F433A00B61868 /* Network */,
+				3B6A743B253AF86F005EC98C /* Storyboards */,
+				3B4AF9212540A17D0020C251 /* ViewControllers */,
 			);
 			path = cogniteq_prjct;
+			sourceTree = "<group>";
+		};
+		3B6A743B253AF86F005EC98C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A7432253A4F03005EC98C /* LaunchScreen.storyboard */,
+				3B6A742D253A4F02005EC98C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3B6A743C253B1498005EC98C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A7441253B1FC2005EC98C /* Items.swift */,
+				3B6A7440253B1FC2005EC98C /* Json4Swift_Base.swift */,
+				3B6A743F253B1FC2005EC98C /* License.swift */,
+				3B6A7442253B1FC2005EC98C /* Owner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7374BAF2253F433A00B61868 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A743C253B1498005EC98C /* Model */,
+				7374BAF3253F435400B61868 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		802DD686E457674F7A6976A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F7E51EC4071D22782954F1D /* Pods_cogniteq_prjct.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6A7438253A4F03005EC98C /* Build configuration list for PBXNativeTarget "cogniteq_prjct" */;
 			buildPhases = (
+				890D34664D94920CCC00A55A /* [CP] Check Pods Manifest.lock */,
 				3B6A7420253A4F02005EC98C /* Sources */,
 				3B6A7421253A4F02005EC98C /* Frameworks */,
 				3B6A7422253A4F02005EC98C /* Resources */,
+				6113935A80954D1AD37B7082 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +244,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6113935A80954D1AD37B7082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cogniteq_prjct/Pods-cogniteq_prjct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cogniteq_prjct/Pods-cogniteq_prjct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cogniteq_prjct/Pods-cogniteq_prjct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890D34664D94920CCC00A55A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cogniteq_prjct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B6A7420253A4F02005EC98C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B6A742C253A4F02005EC98C /* ViewController.swift in Sources */,
+				3B6A742C253A4F02005EC98C /* StartViewController.swift in Sources */,
 				3B6A7428253A4F02005EC98C /* AppDelegate.swift in Sources */,
+				7374BAF4253F435400B61868 /* APIManager.swift in Sources */,
+				3B6A7446253B1FC2005EC98C /* Owner.swift in Sources */,
+				3B6A744E253B2888005EC98C /* RepoInfoTableViewCell.swift in Sources */,
 				3B6A742A253A4F02005EC98C /* SceneDelegate.swift in Sources */,
+				3B6A7444253B1FC2005EC98C /* Json4Swift_Base.swift in Sources */,
+				3B6A7445253B1FC2005EC98C /* Items.swift in Sources */,
+				3B6A744C253B269B005EC98C /* RepoListTableViewController.swift in Sources */,
+				3B6A7443253B1FC2005EC98C /* License.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +442,11 @@
 		};
 		3B6A7439253A4F03005EC98C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254C3D555B2A2673BC57ED2B /* Pods-cogniteq_prjct.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = cogniteq_prjct/Info.plist;
+				INFOPLIST_FILE = "cogniteq_prjct/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +460,11 @@
 		};
 		3B6A743A253A4F03005EC98C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6427FD3C804F114DB3DF0F55 /* Pods-cogniteq_prjct.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = cogniteq_prjct/Info.plist;
+				INFOPLIST_FILE = "cogniteq_prjct/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
