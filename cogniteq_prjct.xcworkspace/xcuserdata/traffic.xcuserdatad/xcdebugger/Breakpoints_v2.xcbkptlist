@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19AFA734-A645-48B4-A4CC-7B55A9D24560"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84E18784-2CC4-429E-A774-6A556155A071"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cogniteq_prjct/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "readData(page:name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B7A057D-3E77-4BEB-BA5A-1D6955309AD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cogniteq_prjct/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "filterContentForSearch(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8FD4F6E-520D-4B04-9845-B4E5E5474DEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cogniteq_prjct/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "filteredProjectList"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E8FD4F6E-520D-4B04-9845-B4E5E5474DEF - 7d4f680eed08598f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cogniteq_prjct.TableViewController.(filteredProjectList in _3ABD19C78E235C999F87576B0E19B53D).getter : Swift.Array&lt;cogniteq_prjct.Items&gt;"
+                  moduleName = "cogniteq_prjct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffic/Downloads/cogniteq_prjct/cogniteq_prjct/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "E8FD4F6E-520D-4B04-9845-B4E5E5474DEF - 26c97bfdba922211"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (cogniteq_prjct.Items) -&gt; Swift.Bool in cogniteq_prjct.TableViewController.(filteredProjectList in _3ABD19C78E235C999F87576B0E19B53D).getter : Swift.Array&lt;cogniteq_prjct.Items&gt;"
+                  moduleName = "cogniteq_prjct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffic/Downloads/cogniteq_prjct/cogniteq_prjct/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
